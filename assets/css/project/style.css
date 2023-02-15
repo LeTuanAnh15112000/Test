@@ -55,9 +55,11 @@
 .p-client {
     margin-top: 80px;
 }
-.p-choose{
+
+.p-choose {
     margin-top: 175px;
 }
+
 .p-choose__title {
     font-weight: 400;
     font-size: 34px;
@@ -75,13 +77,32 @@
     margin-bottom: 73px;
 }
 
-.p-service{
+.p-service {
     margin-top: 152px;
     margin-bottom: 117px;
 }
-.p-service__title{
+
+.p-service__title {
     font-weight: 500;
     font-size: 35px;
     line-height: 48px;
     margin-bottom: 84px;
+}
+
+.p-businesses__title {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+.p-businesses__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #666666;
+    margin-bottom: 50px;
 }

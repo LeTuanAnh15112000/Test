@@ -1,0 +1,9 @@
+.c-layout__list{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+.c-layout__item{
+    border-radius: 20px;
+    overflow: hidden;
+}
