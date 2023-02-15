@@ -1,0 +1,8 @@
+.c-youtube{
+    height: 658px;
+    width: 100%;
+}
+.c-youtube iframe{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,31 @@
+.l-mainvisual__list, .l-mainvisual__item, .slick-list{
+    height: 100vh;
+}
+.l-mainvisual__item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 0 13px;
+}
+.slick-dots button {
+  font-size: 0;
+  width: 14px;
+  height: 14px;
+  border-radius: 100rem;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  transition: all 0.2s linear;
+}
+.slick-dots .slick-active button {
+  background-color: #383D40;
+}

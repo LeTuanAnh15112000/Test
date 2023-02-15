@@ -1,0 +1,89 @@
+.c-service .slick-list {
+    height: auto;
+}
+
+.c-service__img {
+    margin-top: 46px;
+}
+
+.c-service__img img {
+    margin: 0 auto;
+}
+
+.c-service__item {
+    background: #FFFFFF;
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    width: calc(25% - 30px);
+    height: 345px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c-service__item.slick-slide {
+    display: flex;
+}
+
+
+.c-service__find {
+    width: 180px;
+    height: 40px;
+    background: #277CFB;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto 20px;
+}
+
+.c-service__title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    margin-top: 41px;
+    margin-bottom: 10px;
+}
+
+.c-service__desc {
+    margin-bottom: 17px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    text-align: center;
+    color: #666666;
+}
+
+.c-service__list .slick-dots {
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    gap: 0 13px;
+}
+
+.c-service__list .slick-dots button {
+    font-size: 0;
+    width: 14px;
+    height: 14px;
+    border-radius: 100rem;
+    background-color: #E2E2E2;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+}
+
+.c-service__list .slick-dots .slick-active button {
+    background-color: #277CFB;
+}

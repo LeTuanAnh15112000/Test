@@ -1,0 +1,87 @@
+/* header */
+.l-header {
+    height: 90px;
+    width: 100%;
+    background: #383D40;
+}
+
+/* .l-header__logo{
+    margin-right: 230px;
+} */
+.l-header__inner {
+    max-width: 960px;
+    width: 100%;
+    margin-left: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.l-header__content {
+    display: flex;
+    width: 100%;
+}
+
+.l-header__menu {
+    width: 60%;
+    margin-left: auto;
+}
+
+.l-header__list {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.l-header__item a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.52px;
+    color: #FFF;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5px;
+    height: 100%;
+}
+
+/* body */
+.p-app {
+    margin-top: 150px;
+}
+
+.p-client {
+    margin-top: 80px;
+}
+.p-choose{
+    margin-top: 175px;
+}
+.p-choose__title {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 46px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.p-choose__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #666666;
+    margin-bottom: 73px;
+}
+
+.p-service{
+    margin-top: 152px;
+    margin-bottom: 117px;
+}
+.p-service__title{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 48px;
+    margin-bottom: 84px;
+}
